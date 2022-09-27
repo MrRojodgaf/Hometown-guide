@@ -11,11 +11,12 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
-   
+    background: linear-gradient(#a8dadc, #457B9D);
+    
 }
 
 .container {
-    max-width: 520px;
+    max-width: 710px;
     width: 100%; 
     margin: 10px auto;
     background: #edf2f4;
@@ -32,7 +33,7 @@ img {
     background-image: url(images/torshov.jpg);
     background-size: cover;
     height: 40vh;
-    width: 500px;
+    width: 690px;
     margin: auto;
     padding: 0 0 50px 0;
     border-radius: 5px;
@@ -49,7 +50,8 @@ img {
 .hero-h1 {
     font-size: 18px;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 h1 > span {
@@ -72,13 +74,15 @@ h1 > span {
     background: #F1FAEE;
     margin-top: 0;
     padding-top: 10px;
-    width: 500px;
+    width: 690px;
     margin: auto;
 }
 
 .act-h3 {
     color: #1D3557;
-    font-size: 14px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
 }
 
 .act-flex {
@@ -90,12 +94,13 @@ h1 > span {
 .img-h3 {
     font-size: 12px;
     color: #1D3557;
-
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 .img-p {
-    font-size: 12px;
+    font-size: 13px;
     color: #1D3557;
+    margin-right: 5px;
 }
 
 .guide-section {
@@ -114,16 +119,19 @@ h1 > span {
 
 .guide-flex > h3 {
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 .guide-flex > p {
-    font-size: 12px;
+    font-size: 12.5px;
+    font-style: italic;
+    text-shadow: 0px 0px 1px #1D3557;
 }
 
 .guide-flex > h4 {
     font-size: 12px;
     margin-top: 30px;
-    
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 .guide-img {
